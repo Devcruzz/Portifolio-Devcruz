@@ -19,13 +19,11 @@
     
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Professional Experience</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#experiences">Experience</a></li>
                     <li><a href="#">Projetos</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
-
-                <button ></button>
             </nav>
         </div>
     </header>  <!-- FIM CABEÇALHO -->
@@ -35,23 +33,38 @@
         <!-- COMEÇO SECTION -->
         <section class="topo-site">
             <div class="interface">
-                    <h1>I'am <span>Levi Cruz</span></h1>
-                    <h3>Back-end Developer</h3>
-
-                    <ul>
-                        <li><a target="_blank"href="https://github.com/Devcruzz"><img src="img/github.png" alt="github"></a></li>
-                        <li><a target="_blank"href="https://www.linkedin.com/in/levi-cruz-11799b261/"><img src="img/linkedin.png" alt="Linkedin"></a></li>
-                        <li><a href="assets/Profile.pdf" download="Curriculo.pdf" type="aplication/pdf">Baixar Currrículo</a></button></li>
-                    </ul>
-            </div>
-
-            <div class="img-principal">
-                <img src="img/foto-principal.jpg" alt="Minha-foto">
-            </div>
+                <div class="info">
+                    <div class="intro">
+                        <h1>I am <span>Levi Cruz</span></h1>
+                        <h3>Back-end Developer</h3>
+                    </div>
         
+                    <!-- Links sociais abaixo do texto -->
+                    <nav class="link-alt">
+                        <ul>
+                            <li><a target="_blank" href="https://github.com/Devcruzz"><img src="img/github.png" alt="GitHub"></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/levi-cruz-11799b261/"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
+                            <!-- <li><a href="assets/Profile.pdf" download="Curriculo.pdf" type="application/pdf">Baixar Currículo</a></li> -->
+                        </ul>
+                        <p><a href="assets/Profile.pdf" download="Curriculo.pdf" type="application/pdf">Baixar Currículo</a></p>
+                    </nav>
+                </div>
+
+                <div class="img-principal">
+                    <img src="img/foto-principal.jpg" alt="Minha-foto">
+                </div>
+
+            </div>
         </section>
         <!-- FIM SECTION -->
-         
+
+        <!-- Contêiner com o título "Know Me" -->
+            <div class="contai" id="about">
+                <div class="big-text">know Me</div>
+                <div class="small-text">Know me</div>
+            </div>
+        <!-- FIM - Contêiner com o título "Know Me" -->
+
         <!-- COMEÇO SECTION 2-->
         <section class="about">
             <div class="img-about">
@@ -64,19 +77,130 @@
         </section>
         <!-- FIM SECTION -->
 
-
+        <!-- Contêiner Experiencia -->
+        <div class="contai" id="experiences">
+            <div class="big-text">Personal knowledge</div>
+            <div class="small-text">Personal knowledge</div>
+        </div>
+     <!-- FIM - Contêiner Experiencia -->
 
         <!-- COMEÇO SECTION 3-->
 
         <section class="experience">
-            div.
+            <h1 class="titulo">Experience</h1>
+        
+            <!-- CONTEÚDO -->
+            <div class="infor-exp">
+                <div class="desc-exp">
+                    <h1><span>Gerente de Projeto</span> – Tech Nova</h1>
+                    <h3>Eeep leonel de moura brizola | 2024</h3>
+        
+                    <p>
+                        Liderei uma equipe de 18 pessoas no setor de hardware no projeto Tech Nova, com o objetivo de revitalizar, montar e realizar a manutenção das máquinas da escola. <br><br>
+        
+                        Organizei e participei de reuniões estratégicas, com gestores de diferentes setores e com os colaborados na qual estava inserido para o alinhamento de demandas e soluções. <br><br>
+        
+                        Implementei metodologias ágeis, como Kanban e princípios do Scrum, para otimizar o fluxo de trabalho e aumentar a eficiência do time.
+                    </p>
+                </div>
+        
+                <img src="img/img-tech4.jpg" alt="Kanban">
+            </div>
+        
+            <!-- ABA DE MAIS FOTOS -->
+            <!-- Checkbox escondido -->
+            <input type="checkbox" id="toggle">
+        
+            <!-- Botão para "Ver Mais" -->
+            <label for="toggle" class="toggle-label"></label>
+        
+            <!-- Imagens ocultas -->
+            <div class="galeria toggle-content">
+                <div class="flex-container">
+                    <!-- Primeira Imagem -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/img-tech.jpg" alt="equipe-full">
+                        </div>
+                    </div>
+        
+                    <!-- Segunda Imagem -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/img-tech2.jpg" alt="gerentes">
+                        </div>
+                    </div>
+        
+                    <!-- Terceira Imagem -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/img-tech3.jpg" alt="kanban">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="infor-exp">
+                <div class="desc-exp">
+                    <h1><span> Desenvolvimento Back-end </span> - Gamelist</h1>
+                    <h3>Projeto pessoal | 2025</h3>
+        
+                    <p>
+                        Colaborei no desenvolvimento de uma aplicação web para gerenciamento de jogos, juntamente com colegas de curso.<br><br>
+                
+                        Fui responsável pela implementação da lógica back-end, utilizando PHP, MySQL, Bootstrap, HTML e CSS. Além da conexão com banco de dados, autenticação de usuários e manipulação de dados.<br><br>
+                        
+                        Trabalhei em equipe com outros desenvolvedores, aplicando boas práticas de programação e versionamento de código com git e github.
+                    </p>
+                </div>
+                <img src="img/img-colab-game.jpg" alt="colaboradores">
+            </div>
+
+            <!-- ABA DE MAIS FOTOS -->
+            <!-- Checkbox escondido -->
+            <input type="checkbox" id="toggle">
+        
+            <!-- Botão para "Ver Mais" -->
+            <label for="toggle" class="toggle-label"></label>
+        
+            <!-- Imagens ocultas -->
+            <div class="galeria toggle-content">
+                <div class="flex-container">
+                    <!-- Primeira Imagem -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/img-game1.png" alt="equipe-full">
+                        </div>
+                    </div>
+        
+                    <!-- Segunda Imagem -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/img-game2.png" alt="gerentes">
+                        </div>
+                    </div>
+        
+                    <!-- Terceira Imagem -->
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/img-game3.png" alt="kanban">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
 
 
 
 
 
         </section>
-
         <!-- FIM SECTION -->
 
 
