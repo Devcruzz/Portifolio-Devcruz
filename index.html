@@ -6,9 +6,13 @@
     <!-- ESTILOS -->
     <link rel="stylesheet" href="style.css">
 
+    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="https://use.typekit.net/cuf5ulm.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!-- FIM ESTILOS -->
-    <title>PORTIFÓLIO</title>
+    <title>Devcruzz</title>
 
 </head>
 <body>
@@ -21,12 +25,16 @@
                 <ul>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#experiences">Experience</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#project">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>  <!-- FIM CABEÇALHO -->
+    
+    <a href="#" class="back-to-home">
+        <i class="fas fa-home"></i>
+    </a>
     
     <main> <!-- INICIO MAIN -->
 
@@ -42,8 +50,8 @@
                     <!-- Links sociais abaixo do texto -->
                     <nav class="link-alt">
                         <ul>
-                            <li><a target="_blank" href="https://github.com/Devcruzz"><img src="img/github.png" alt="GitHub"></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/levi-cruz-11799b261/"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
+                            <li><a target="_blank" href="https://github.com/Devcruzz"><img src="assets/icons/icon-github.png" alt="GitHub"></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/levi-cruz-11799b261/"><img src="assets/icons/icon-linkedin.png" alt="LinkedIn"></a></li>
                             <!-- <li><a href="assets/Profile.pdf" download="Curriculo.pdf" type="application/pdf">Baixar Currículo</a></li> -->
                         </ul>
                         <p><a href="assets/Profile.pdf" download="Curriculo.pdf" type="application/pdf">Baixar Currículo</a></p>
@@ -72,7 +80,12 @@
             </div>
             <div class="interface-about">
                 <h1>about <span>me</span></h1>
-                <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando </p>
+                <p>Meu nome é <span>Levi Cruz</span>, tenho 17 anos e sou estudante de desenvolvimento Back-end. Atualmente, 
+                    possuo conhecimentos em <span>PHP, Mysql, HTML, CSS, Git, Github e metodologias ágeis como Kanban e Scrum. </span><br>
+                    Além disso, tenho reservado parte do meu tempo para estudar novas ferramentas e tecnologias que complementem minha formação, como <span>Docker, AWS e o famoso universo do Linux.</span> <br>
+                    Sou uma pessoa que preza pelo bom funcionamento dos processos, buscando sempre soluções eficientes e bem estruturadas. Tenho facilidade em aprender novas tecnologias e estou constantemente em busca da evolução, tanto técnica quanto pessoal.
+                    <br>
+                    Já tive a oportunidade de <span>liderar equipes, organizar projetos e colaborar diretamente com diferentes setores em projetos</span>, o que reforçou minha habilidade de <span>comunicação, trabalho em equipe e resolução de problemas.</span></p>
             </div>
         </section>
         <!-- FIM SECTION -->
@@ -94,13 +107,12 @@
                 <div class="desc-exp">
                     <h1><span>Gerente de Projeto</span> – Tech Nova</h1>
                     <h3>Eeep leonel de moura brizola | 2024</h3>
-        
                     <p>
-                        Liderei uma equipe de 18 pessoas no setor de hardware no projeto Tech Nova, com o objetivo de revitalizar, montar e realizar a manutenção das máquinas da escola. <br><br>
+                        <span>Liderei</span> uma equipe de 18 pessoas no setor de hardware no projeto Tech Nova, com o objetivo de <span>revitalizar, montar e realizar a manutenção das máquinas da escola.</span><br><br>
         
-                        Organizei e participei de reuniões estratégicas, com gestores de diferentes setores e com os colaborados na qual estava inserido para o alinhamento de demandas e soluções. <br><br>
-        
-                        Implementei metodologias ágeis, como Kanban e princípios do Scrum, para otimizar o fluxo de trabalho e aumentar a eficiência do time.
+                        <span>Organizei e participei</span> de reuniões estratégicas, com gestores de diferentes setores e com os colaborados na qual estava inserido para o alinhamento de <span>demandas e soluções. </span><br><br>
+
+                        <span>Implementei metodologias ágeis, como Kanban e princípios do Scrum,</span> para otimizar o fluxo de trabalho e aumentar a eficiência do time.
                     </p>
                 </div>
         
@@ -139,75 +151,66 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="infor-exp">
-                <div class="desc-exp">
-                    <h1><span> Desenvolvimento Back-end </span> - Gamelist</h1>
-                    <h3>Projeto pessoal | 2025</h3>
-        
-                    <p>
-                        Colaborei no desenvolvimento de uma aplicação web para gerenciamento de jogos, juntamente com colegas de curso.<br><br>
-                
-                        Fui responsável pela implementação da lógica back-end, utilizando PHP, MySQL, Bootstrap, HTML e CSS. Além da conexão com banco de dados, autenticação de usuários e manipulação de dados.<br><br>
-                        
-                        Trabalhei em equipe com outros desenvolvedores, aplicando boas práticas de programação e versionamento de código com git e github.
-                    </p>
-                </div>
-                <img src="img/img-colab-game.jpg" alt="colaboradores">
-            </div>
-
-            <!-- ABA DE MAIS FOTOS -->
-            <!-- Checkbox escondido -->
-            <input type="checkbox" id="toggle">
-        
-            <!-- Botão para "Ver Mais" -->
-            <label for="toggle" class="toggle-label"></label>
-        
-            <!-- Imagens ocultas -->
-            <div class="galeria toggle-content">
-                <div class="flex-container">
-                    <!-- Primeira Imagem -->
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/img-game1.png" alt="equipe-full">
-                        </div>
-                    </div>
-        
-                    <!-- Segunda Imagem -->
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/img-game2.png" alt="gerentes">
-                        </div>
-                    </div>
-        
-                    <!-- Terceira Imagem -->
-                    <div class="item">
-                        <div class="image">
-                            <img src="img/img-game3.png" alt="kanban">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-
-
-
-
-
-
         </section>
         <!-- FIM SECTION -->
 
+        <!-- COMEÇO SECTION 3-->
 
+        <section class="container-project" id="project">
+            <div class="intro-project">
+                <h1 class="title-project"> PROJETOS RECENTES</h1>
+                <p>Alguns dos meus projetos destacam minha dedicação à criação de sistemas</p>
+            </div>
 
+            <div class="project-flex">
+                <div class="img-project">
+                    <img src="img/img-game1.png" alt="Home-games">
+                </div>
+                <div class="infor-games">
+                    <div class="tech-icons">
+                        <img src="assets/icons/icon-php.png" alt="php">
+                        <img src="assets/icons/icon-html.png" alt="html">
+                        <img src="assets/icons/icon-css.png" alt="css">
+                        <img src="assets/icons/icon-git.png" alt="git">
+                        <img src="assets/icons/icon-bootstrap.png" alt="bootstrap">
+                    </div>
+                    <h1>GAMELIST</h1>
+                    <P><span>GameList</span> é um projeto voltado para a apresentação e organização de jogos, desenvolvido com o <span>objetivo principal de testar, praticar e aprimorar as habilidades técnicas e criativas dos desenvolvedores envolvidos.</span>Além do aspecto técnico, o projeto também <span>estimula o trabalho em equipe, a aplicação de metodologias ágeis, o uso de versionamento com Git/GitHub, e o domínio de tecnologias como PHP, HTML, CSS e MySQL.</span></P>
 
+                    <p class="visit-project"><a href="http://gamelist.free.nf/" target="_blank"><i class="fas fa-link"></i>Visitar
+                    </a></p>
+        
+                </div>
+            </div>
+        </section>
+        <!-- FIM SECTION -->
 
+        <!-- FOOTER  -->
 
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer-info">
+                    <h1><span>SINTA-SE</span> A VONTADE EM ENTRAR EM CONTATO COMIGO</h1>
+                    <h3>Será um prazer compartilhar ideias, experiências
+                        e estabelecer conexões.</h3>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <h2>Backend developer</h2>
+                <div class="contact-me">
+                   <nav>
+                        <a href="https://www.instagram.com/cruzz_0101/" target="_blank"><img src="assets/icons/icon-instagram.png" alt="instagram"></a>
+                        <a href="https://github.com/Devcruzz" target="_blank"><img src="assets/icons/icon-github.png" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/levi-cruz-11799b261/" target="_blank"><img src="assets/icons/icon-linkedin.png" alt="linkedin"></a>
+                    </nav>
+                </div>
+                    
+                <small>© 2025 by Levi Cruz. All rights reserved.</small>
+            </div>
+
+        </footer>
+        <!-- FIM - FOOTER -->
     </main> <!-- FIM MAIN -->
 
 </body>
