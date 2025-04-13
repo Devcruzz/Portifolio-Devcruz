@@ -109,7 +109,17 @@ header{
 .interface h1 span{
     color: #ffffff;
 
-}   
+}  
+
+.typing::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
 
 .interface h3{
     font-size: 52px;
@@ -514,7 +524,7 @@ footer{
     align-items: center;
     text-align: center;
     padding: 30px;
-    background-color: #666666;
+    background-color: #000000;
     gap: 20px;
 }
 

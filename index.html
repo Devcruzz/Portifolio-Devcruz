@@ -14,6 +14,7 @@
     <!-- FIM ESTILOS -->
     <title>Devcruzz</title>
 
+
 </head>
 <body>
     <header> <!-- INÍCIO CABEÇALHO  -->
@@ -44,9 +45,8 @@
                 <div class="info">
                     <div class="intro">
                         <h1>I am <span>Levi Cruz</span></h1>
-                        <h3>Back-end Developer</h3>
+                        <h3 id="typewriter" class="typing"></h3> <!-- Aqui aparece o texto digitado -->
                     </div>
-        
                     <!-- Links sociais abaixo do texto -->
                     <nav class="link-alt">
                         <ul>
@@ -175,7 +175,7 @@
                         <img src="assets/icons/icon-bootstrap.png" alt="bootstrap">
                     </div>
                     <h1>GAMELIST</h1>
-                    <P><span>GameList</span> é um projeto voltado para a apresentação e organização de jogos, desenvolvido com o <span>objetivo principal de testar, praticar e aprimorar as habilidades técnicas e criativas dos desenvolvedores envolvidos.</span>Além do aspecto técnico, o projeto também <span>estimula o trabalho em equipe, a aplicação de metodologias ágeis, o uso de versionamento com Git/GitHub, e o domínio de tecnologias como PHP, HTML, CSS e MySQL.</span></P>
+                    <P><span>GameList</span> é um projeto voltado para a apresentação e organização de jogos, desenvolvido com o <span>objetivo principal de testar, praticar e aprimorar as habilidades técnicas e criativas dos desenvolvedores envolvidos.</span> Além do aspecto técnico, o projeto também <span>estimula o trabalho em equipe, a aplicação de metodologias ágeis, o uso de versionamento com Git/GitHub, e o domínio de tecnologias como PHP, HTML, CSS e MySQL.</span></P>
 
                     <p class="visit-project"><a href="http://gamelist.free.nf/" target="_blank"><i class="fas fa-link"></i>Visitar
                     </a></p>
@@ -213,5 +213,27 @@
         <!-- FIM - FOOTER -->
     </main> <!-- FIM MAIN -->
 
+    <script>
+        const text = "Backend developer";
+        const speed = 100; // Velocidade da digitação (ms)
+        const waitTime = 10000; // Espera 50 segundos (em milissegundos)
+        let i = 0;
+    
+        function typeWriter() {
+          if (i < text.length) {
+            document.getElementById("typewriter").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          } else {
+            // Depois de digitar tudo, espera 50 segundos e reinicia
+            setTimeout(() => {
+              document.getElementById("typewriter").innerHTML = "";
+              i = 0;
+              typeWriter(); // começa de novo
+            }, waitTime);
+          }
+        }
+        window.onload = typeWriter;
+      </script>
 </body>
 </html>
