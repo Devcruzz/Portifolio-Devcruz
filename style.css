@@ -52,6 +52,20 @@ header{
     justify-content: space-between;
 }
 
+.inicial{
+    font-size: 20px;
+}
+
+.inicial span,h2{
+    font-weight: 900;
+}
+
+.inicial h2 i{
+    color: #fff;
+    padding: 6px;
+    font-size:23px;
+}
+
 .menu ul{
     padding: 0 60px 0 0;
 }
@@ -103,7 +117,7 @@ header{
 .interface h1{
     font-size: 48px;
     font-weight: bold;
-
+    
 }
 
 .interface h1 span{
@@ -514,8 +528,9 @@ footer{
 }
 
 .contact-me nav img{
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: auto;
+    padding: 5px;
 }
 
 .footer-copyright{
