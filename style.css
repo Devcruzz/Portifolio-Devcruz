@@ -50,6 +50,7 @@ header{
 .container{
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid #000;
 }
 
 .inicial{
@@ -102,6 +103,7 @@ header{
     align-items: center;
     height: 570px;
     padding: 0 140px 100px 210px;
+    border-bottom: 2px solid #000;
 }
 
 .interface-about p span {
@@ -188,19 +190,17 @@ header{
     font-size: 20px;
 }
 
-section { /* Espaço interno para não colidir com a borda */
-    border-bottom: 2px solid #000; /* Linha preta entre as sections */
-}
 /* FIM SECTION - TOPO SITE ==================================================================*/
 
 /* SECTION - ABOUT  ================================================================== */
 section{
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 .about{
     display: flex;
     justify-content: center;
+    margin-bottom: -60px;
 }
 
 .img-about{
@@ -223,7 +223,6 @@ section{
     font-size: 50px;
     padding-top: 10px;
     font-weight: 700;
-
 }
 
 .interface-about h1 span{
@@ -237,7 +236,8 @@ section{
 
 .contai {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
+    margin-top: 80px;
 }
 
 .big-text {
@@ -253,13 +253,50 @@ section{
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
     margin-top: -13px;
 }
-/* FIM SECTION - ABOUT ==================================================================*/
 
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 40vh;
+    border-bottom: 2px solid #000;
+}
+
+.container-skills h1{
+    font-size: 50px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.container-skills ul{
+    display: flex;
+    gap: 30px; 
+    padding: 0;
+    list-style: none;
+}
+
+.container-skills .item-skill img{
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 0.35s;
+    cursor:pointer;
+}
+
+.container-skills:hover .item-skill:not(:hover) {
+    opacity: .50;
+    transform: scale(0.9);
+} 
+
+/* FIM SECTION - ABOUT ==================================================================*/
 
 /* SECTION - EXPERIENCIA  ================================================================== */
 .experience {
     text-align: center;
     padding: 20px;
+    padding-top: 50px;
 }
 
 .titulo {
