@@ -499,6 +499,7 @@ section{
 }
 
 .infor-games h1{
+    color: white;
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 8px;
@@ -515,7 +516,7 @@ section{
 }
 
 .visit-project{
-    background-color: #969494;
+    background-color: #ffffffa5;
     padding: 10px;
     display: inline-block;
     border-radius: 8px;
