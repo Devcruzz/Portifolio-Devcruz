@@ -95,6 +95,7 @@ header{
     width: 400px;
     height: 400px;
     border-radius: 200px;
+    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.859); /* luz clara */
 }
 
 .interface {
