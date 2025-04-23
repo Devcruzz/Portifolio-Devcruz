@@ -40,9 +40,10 @@ html {
 
 body {
     background: rgb(106,104,133);
-    background: linear-gradient(90deg, rgb(96, 94, 94), rgb(225, 237, 242) 100%);}
-
-/* CAABEÇALHO */
+    /* background: linear-gradient(90deg, rgb(96, 94, 94), rgb(225, 237, 242) 100%); */
+    background: linear-gradient(90deg,  rgba(0, 0, 0, 1) -15%, rgba(79, 190, 255, 0.594) 49%);
+}
+    /* CAABEÇALHO */
 header{
     padding: 30px 40px;
 }
