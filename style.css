@@ -60,6 +60,7 @@ header{
 
 .inicial span,h2{
     font-weight: 900;
+    color: rgb(255, 255, 255);
 }
 
 .inicial h2 i{
@@ -157,7 +158,7 @@ header{
 }
 
 .link-alt ul li a img {
-    width: 35px;
+    width: 45px;
 }
 
 .interface li a{
