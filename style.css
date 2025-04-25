@@ -799,3 +799,10 @@ small{
         right: 10px;
     }
 }
+
+@media (min-height: 770px) {
+    /* GERAL */
+    body .interface{
+        height: 770px;
+    }
+}
